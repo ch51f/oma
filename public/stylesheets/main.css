@@ -1,0 +1,171 @@
+body {
+	font-family: lato, 'PingFang SC', 'Microsoft YaHei', 微软雅黑, STXihei, 华文细黑, sans-serif;
+}
+
+.fixed-top {
+	padding-top: 70px;
+}
+
+.header {
+	background: #fff;
+	height: 70px;
+	line-height: 60px;
+	padding: 5px 0;
+	position: fixed; top: 0; left: 0;
+	width: 100%;
+}
+.header .logo {
+	color: #4bf;
+	font-size: 21px;
+	text-decoration: none;
+}
+.header .logo img {
+	height: 60px;
+	margin-right: 15px;
+	width: auto;
+}
+.header .nav {
+	font-size: 16px;
+}
+.header .nav a {
+	color: #333;
+	display: inline-block;
+	padding: 0 5px;
+	text-decoration: none;
+}
+.header .nav a:last-child {
+	padding-right: 0;
+}
+.header .nav a.active {
+	color: rgba(68, 187, 255, 1)
+}
+.header .nav a:hover {
+	color: rgba(68, 187, 255, .9)
+}
+
+.panel-a {
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-color: transparent; 
+	background-position: 50% 50%; 
+	background-image: url(/images/bg_1.jpg);
+	color: #fff;
+	height: 300px;
+	padding-top: 80px;
+	text-align: center;
+}
+.panel-a h3 {
+	font-size: 45px;
+}
+.panel-a p {
+	font-size: 20px;
+}
+.panel-b {
+	padding: 30px 0;
+	text-align: center;
+}
+.panel-b h3 {
+	color: #4bf;
+	font-size: 36px;
+}
+.panel-b .sub-title {
+	font-size: 20px;
+	font-style: italic;
+}
+.panel-b .item {
+	padding: 40px 0 10px;
+}
+.panel-b .item img {
+	height: 128px;
+}
+.panel-b .item h4 {
+	color: #4bf;
+	font-size: 24px;
+}
+.panel-b .item p {
+	font-size: 16px;
+	margin-bottom: 2px;
+}
+.panel-c {
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-color: transparent; 
+	background-position: 50% 50%; 
+	background-image: url(/images/bg_2.webp);
+	color: #fff;
+	height: 900px;
+	padding-top: 80px;
+	text-align: center;
+}
+.panel-c .iframe {
+	background: #aaa;
+	height: 500px;
+	margin: 0 auto 40px;
+	width: 900px;
+}
+.panel-c h3 {
+	font-size: 45px;
+}
+.panel-c p {
+	font-size: 20px;
+}
+.panel-c .btn {
+	display: block;
+	margin: 20px auto 0;
+	width: 200px;
+}
+.panel-d {
+	padding: 30px 0;
+}
+.panel-d h3 {
+	color: #4bf;
+	font-size: 36px;
+	text-align: center;
+}
+.panel-d .sub-title {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+}
+.panel-d h4 {
+	color: #4bf;
+	font-size: 20px;
+}
+.panel-d .br {
+	padding: 20px 0;
+}
+.panel-e {
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-color: transparent; 
+	background-position: 50% 50%; 
+	background-image: url(/images/bg_3.jpg);
+	color: #fff;
+	height: 450px;
+	padding-top: 80px;
+}
+.panel-e h3 {
+	font-size: 45px;
+	text-align: center;
+}
+.panel-e p {
+	font-size: 20px;
+	text-align: center;
+}
+.panel-e form {
+	margin: 20px auto;
+	width: 420px;
+}
+.panel-e .form-control {
+	margin-bottom: 20px;
+}
+.panel-e .btn {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+}
+.footer {
+	line-height: 20px;
+	padding: 20px 0;
+	text-align: center;
+}

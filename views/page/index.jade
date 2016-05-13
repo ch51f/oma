@@ -1,0 +1,57 @@
+extends ../layout/base
+
+block content 
+	include ../common/header 
+	section.panel-a 
+		h3 你好吗？世界 
+		p 我们尽最大的努力为用户打造有价值的产品。
+	section.panel-b
+		h3 产品
+		p.sub-title 我们在全力以赴
+		div.container
+			div.row
+				div.col-md-3.item
+					img(src="/images/icon_1.webp")
+					h4 Oh My Start
+					p OS X
+					p.txt-muted The best way to organise your GitHub Stars.
+				div.col-md-3.item
+					img(src="/images/icon_2.webp")
+					h4 Oh My Start 2
+					p OS X && IOS
+					p.txt-muted Coming Soon...
+				div.col-md-3.item
+					img(src="/images/icon_3.webp")
+					h4 大小写转换计算器
+					p IOS & Android
+					p.txt-muted 最简单的大小写转换工具
+				div.col-md-3.item
+					img(src="/images/icon_4.webp")
+					h4 二娃
+					p 已被下架
+					p.txt-muted 八卦版本今日头条
+	section.panel-c
+		div.iframe
+		h3 OhMyStar
+		p The best way to organise your GitHub Starts.
+		button.btn.btn-info Buy Now
+	section.panel-d
+		h3 关于我们
+		p.sub-title 我们追求完美
+		div.container
+			div.row
+				.col-md-8.col-md-offset-2
+					h4 好奇心
+					p 世界这么大，有趣的事情这么多。我们对任何有新奇的、科学的、美好的事物都充满了好奇心。并且在探索世界的过程中享受发现新东西的乐趣。
+					div.br
+					h4 热情
+					p 我们对技术的进步有着极大的热情，如果有一个新的技术出现会觉得欢欣鼓舞。
+	section.panel-e
+		h3 联系我们
+		p 赶紧联系我们吧。和我们一起，激发无限创造力
+		form
+			input.form-control(placeholder="姓名")
+			input.form-control(placeholder="电子邮箱")
+			textarea.form-control(placeholder="消息")
+			button.btn.btn-info 提交
+	include ../common/footer 
