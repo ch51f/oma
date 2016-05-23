@@ -7,12 +7,12 @@ router.get('/', function(req, res, next) {
   res.render('page/index', { title: 'OhMyApps' });
 });
 
-router.get('/addContact', function(req, res, next) {
+router.post('/addContact', function(req, res, next) {
 	contactDao.add(req, res, next);
 });
 
-router.get('/query', function(req, res, next) {
-	contactDao.queryAll(req, res, next);
-});
+// router.get('/omaquery', function(req, res, next) {
+// 	contactDao.queryAll(req, res, next);
+// });
 
 module.exports = router;

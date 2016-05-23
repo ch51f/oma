@@ -50,9 +50,9 @@ block content
 	section.panel-e
 		h3 联系我们
 		p 赶紧联系我们吧。和我们一起，激发无限创造力
-		form#contact-form
-			input.form-control(name="username" placeholder="姓名")
-			input.form-control(name="email" placeholder="电子邮箱")
-			textarea.form-control(name="message" placeholder="消息")
-			button#submit.btn.btn-info 提交
+		form#contact-form(action="/addContact")
+			input.form-control(name="username" placeholder="昵称" datatype="s1-16"  nullmsg="请输入昵称！" errormsg="昵称至少1个字符,最多16个字符！")
+			input.form-control(name="email" placeholder="电子邮箱" datatype="e" nullmsg="请输入电子邮箱！" errormsg="请填写正确的电子邮箱")
+			textarea.form-control(name="message" placeholder="消息" datatype="s" nullmsg="很感谢您花费宝贵时间给我们留言，请填写有效内容！")
+			button#submit.btn.btn-info(type="submit") 提交
 	include ../common/footer 

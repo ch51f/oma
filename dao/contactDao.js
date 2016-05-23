@@ -22,17 +22,12 @@ module.exports = {
 			var param = req.query || req.params;
 			param.create_time = moment().format('YYYY-MM-DD HH:mm:ss');
 			connection.query($sql.insert, [param.username, param.email, param.message, param.create_time], function(err, result) {
-				console.log(param)
-				console.log(err)
-				console.log(result)
 				if(result) {
 					result = {
 						code: 200,
 						msg: '增加成功'
 					}
 				}
-				console.log(result);
-
 				jsonWrite(res, result);
 
 				connection.release();
