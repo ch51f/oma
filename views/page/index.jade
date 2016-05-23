@@ -2,10 +2,12 @@ extends ../layout/base
 
 block content 
 	include ../common/header 
-	section.panel-a 
+	section.panel-a
+		div#panel-a
 		h3 你好吗？世界 
 		p 我们尽最大的努力为用户打造有价值的产品。
 	section.panel-b
+		div#panel-b
 		h3 产品
 		p.sub-title 我们在全力以赴
 		div.container
@@ -31,12 +33,14 @@ block content
 					p 已被下架
 					p.txt-muted 八卦版本今日头条
 	section.panel-c
+		div#panel-c
 		div.iframe
 			<iframe class="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F83384649&wmode=transparent&url=https%3A%2F%2Fvimeo.com%2F83384649&image=http%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F459844959_1280.jpg&key=25afbca9c69b4d728fa90e96b92e6b33&type=text%2Fhtml&schema=vimeo" width="900" height="500" scrolling="no" frameborder="0" allowfullscreen></iframe>
 		h3 OhMyStar
 		p The best way to organise your GitHub Starts.
 		a.btn.btn-info(href="https://itunes.apple.com/us/app/oh-my-star/id788446112?l=en&mt=12" target="_blank") Buy Now
 	section.panel-d
+		div#panel-d
 		h3 关于我们
 		p.sub-title 我们追求完美
 		div.container
@@ -48,6 +52,7 @@ block content
 					h4 热情
 					p 我们对技术的进步有着极大的热情，如果有一个新的技术出现会觉得欢欣鼓舞。
 	section.panel-e
+		div#panel-e
 		h3 联系我们
 		p 赶紧联系我们吧。和我们一起，激发无限创造力
 		form#contact-form(action="/addContact")

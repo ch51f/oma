@@ -171,6 +171,17 @@ body {
 	text-align: center;
 }
 
+#panel-b,
+#panel-c,
+#panel-d,
+#panel-e {
+	height: 70px;
+	margin-top: -70px;
+}
+#panel-a {
+	position: absolute; top: -70px;
+}
+
 .Validform_checktip{
 	margin-left:8px;
 	line-height:20px;
